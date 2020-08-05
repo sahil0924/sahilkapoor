@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Barlow|Gayathri|Cairo|Comfortaa|Crimson+Text|EB+Garamond|Exo+2|Hind+Siliguri|Ibarra+Real+Nova|Inconsolata|Josefin+Sans|Montserrat|Noto+Sans|Nunito|Open+Sans+Condensed:300|Oxygen|PT+Sans|Playfair+Display|Poppins|Questrial|Quicksand|Raleway|Roboto|Roboto+Mono|Ubuntu|Yanone+Kaffeesatz&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*logo*/
+header img {
+  position: absolute;
+  top: 0em;
+  margin-left: 3em;
+  width: 115px;
+  height: auto;
+}
+
+.home {
+  background-image: url(https://cdn.hipwallpaper.com/i/3/45/rebGW2.jpg);
+  background-size: cover;
+  height: 815px;
+  padding: 5em;
+}
+
+body{
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height:auto;
+}
+
+.navbar-left{
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+nav ul{
+
+  top: 0em;
+  width: 100%;
+  margin: 0;
+  text-align: right;
+  list-style: none;
+  background-image: url(https://tinyurl.com/ycoyaoz7);
+}
+
+nav li{
+  display: inline-block;
+  margin: 1em;
+}
+
+nav a{
+  font-weight: 100;
+  font-family: "Courier New";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: #FFFDE7;
+  padding: .05em;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #DDD;
+}
+
+figure img{
+  border-radius: 50%;
+  width: 300px;
+  margin-top: 0;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  color: white;
+  font-size: 25px;
+}
+
+h2 {
+  margin-left:200px;
+  margin-right: 200px;
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 20px;
+  color: #6d7b8d;
+}
+
+section {
+  text-align: center;
+}
+
+.myButton {
+	background-color:#FFA500;
+	border-radius:28px;
+	border:.5px solid #FBB117;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:"Raleway";
+	font-size:17px;
+  font-weight: 400;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#ffb833;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.home figure img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  border-radius: 50%;
+  border: 6px grey;
+  box-shadow: 0 0 0 3px grey;
+}
+
+.contact_home {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffa31a;
+  padding: 2em;
+  display: flex;
+}
+
+.container1 {
+  margin-left: 500px;
+  font-family: "Barlow";
+  font-size: 15px;
+  color: white;
+}
+
+.container2{
+  margin-right: 450px;
+  font-family: "Barlow";
+  font-size: 15px;
+  color: white;
+  flex: 1;
+  list-style: none;
+}
+
+.container2 a{
+  text-decoration: none;
+  font-family: "Barlow";
+  color: white;
+}
+
+.container2 a:hover,
+.container2 a:focus {
+  color: #DDD;
+}
+
+.container2 a:after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 1px;
+  text-decoration: none;
+}
+
+.About {
+  background-image: url(https://tinyurl.com/ybo44bfr);
+  background-size: cover;
+  display: block;
+  height: 820px;
+  width: auto;
+  padding: .5em;
+}
+
+h5 {
+  margin: auto;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 40px;
+  color: #696969;
+}
+
+#story {
+  margin-left: 150px;
+  margin-right: 130px;
+  margin-top: 33px;
+  font-family: "Montserrat";
+  font-size: 15px;
+  color: #2F4F4F;
+}
+
+#career {
+  margin-left: 150px;
+  margin-top: 45px;
+  height: 240px;
+  width: 500px;
+  font-family: "Montserrat";
+  float: left;
+  color: #ECF0F1;
+}
+
+#experience {
+  margin-left: 110px;
+  margin-top: 30px;
+  height: 200px;
+  width: 500px;
+  float: left;
+  font-family: "Montserrat";
+  color: #ECF0F1;
+}
+
+#portfolio {
+  margin-left: 147px;
+  height: 200px;
+  width: 500px;
+  font-family: "Montserrat";
+  color: #ECF0F1;
+}
+
+#hobbies {
+  margin-left: 760px;
+  margin-top: 27px;
+  height: 300px;
+  width: 500px;
+  font-family: "Montserrat";
+  color: #ECF0F1;
+}
