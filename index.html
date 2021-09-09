@@ -5,38 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sahil Kapoor</title>
   <link href="Personal-site-styles.css" rel="stylesheet" type="text/css">
+  <script src="script.js"></script>
 </head>
 <body>
-    <nav>
-      <header>
-        <a href="#" class="navbar-left">
-          <img src="https://tinyurl.com/yby8nz4v" alt="Logo Maker" class="logo">
-        </a>
-      </header>
-      <ul>
-	       <li><a href="Personal_Website.html">Home</a></li>
-         <li><a href="#About">About</a></li>
-         <li><a href="#Portfolio">Portfolio</a></li>
-	       <li><a href="#Footnote">Contact</a></li>
-      </ul>
-    </nav>
- <section class="home">
+  <nav>
+    <header>
+      <a href="#" class="navbar-left">
+        <img src="https://tinyurl.com/yby8nz4v" alt="Logo Maker" class="logo">
+      </a>
+    </header>
+    <ul>
+       <li><a href="Personal_Website.html">Home</a></li>
+       <li><a href="#About">About</a></li>
+       <li><a href="#Portfolio">Portfolio</a></li>
+       <li><a href="#Footnote">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="home">
     <figure id="FigureHeadshot">
       <img src="https://tinyurl.com/ycrdu3wb" alt="Headshot">
     </figure>
-    <h1>Hi, my name is Sahil Kapoor.</h1>
+    <h1>Hi, my name is Sahil Kapoor</h1>
     <h2>Welcome to my website! Here, you can find all types of
       information about me and my work. If you have any questions, please
       contact me. Hope to hear from you soon!
     </h2>
     <a href="#About" class="myButton">My Story</a>
   </section>
-  <section>
-    <div class="About" id="About">
-      <button type="button" id = "Early">Early Life</button>
-      <button type="button" id = "College">College</button>
-      <button type="button" id = "Work">Work Experience</button>
-      <button type="button" id = "Career">Career Aspirations</button>
+  <section class="About" id="About">
+    <div>
+      <button type="button" id = "Early" onclick="showEarly()">Early Life</button>
+      <button type="button" id = "College" onclick="showCollege()">College</button>
+      <button type="button" id = "Work" onclick="showWork()">Work Experience</button>
+      <button type="button" id = "Career" onclick="showCareer()">Career Aspirations</button>
+    </div>
+    <div id="early-text" style="display: none;">
+      <p>I grew up in Lindenhurst, NY where I attended Lindenhurst Senior
+      High School. </p>
+    </div>
+    <div id="college-text" style="display: none;">
+      <p>College</p>
+    </div>
+    <div id="work-text" style="display: none;">
+      <p>Work</p>
+    </div>
+    <div id="career-text" style="display: none;">
+      <p>Career</p>
     </div>
   </section>
   <section>
