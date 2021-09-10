@@ -107,9 +107,8 @@ section {
 }
 
 .myButton {
-	background-color:grey;
+	background-color:black;
 	border-radius:28px;
-	border:.5px solid #FBB117;
 	display:inline-block;
 	cursor:pointer;
 	color:white;
@@ -120,7 +119,7 @@ section {
 	text-decoration:none;
 }
 .myButton:hover {
-	background-color:#ffb833;
+	background-color:gray;
 }
 .myButton:active {
 	position:relative;
@@ -186,7 +185,7 @@ section {
 .About {
   background-color: black;
   display: block;
-  height: 50rem;
+  height: 40rem;
   width: 100%;
   position: relative;
   margin-top: -0.25em;
@@ -203,7 +202,7 @@ section {
   color: #696969;
   border-bottom: 1px solid #696969;
   width: 30rem;
-  top: 5rem;
+  top: 13rem;
   left: 6rem;
   transition: 0.75s;
   padding: .5rem;
@@ -225,7 +224,7 @@ section {
   color: #696969;
   border-bottom: 1px solid #696969;
   width: 30rem;
-  top: 11rem;
+  top: 19rem;
   left: 6rem;
   transition: 0.75s;
   padding: .5rem;
@@ -247,7 +246,7 @@ section {
   color: #696969;
   border-bottom: 1px solid #696969;
   width: 30rem;
-  top: 17rem;
+  top: 25rem;
   left: 6rem;
   transition: 0.75s;
   padding: .5rem;
@@ -269,7 +268,7 @@ section {
   color: #696969;
   border-bottom: 1px solid #696969;
   width: 30rem;
-  top: 23rem;
+  top: 31rem;
   left: 6rem;
   transition: 0.75s;
   padding: .5rem;
@@ -280,25 +279,78 @@ section {
   cursor: pointer;
 }
 
+#early-but {
+  width: 30rem;
+  float: right;
+  margin-top: 7%;
+  display: inline-block;
+}
+
+#long-island {
+  margin-left: -10rem;
+  width: 30rem;
+  right: 12%;
+}
+
+#long-island img{
+  width: 25rem;
+  height: auto;
+}
+
 #early-text {
   position: absolute;
   color: white;
-  right: 20%;
+  right: 10%;
+  font-family: "Helvetica Neue";
+  width: 35%;
+  top: 50%;
+  line-height: 1.7;
+  letter-spacing: .8px;
+  font-size: 1em;
+  text-align: left;
+  font-weight: 90;
 }
 
 #college-text {
+  position: absolute;
   color: white;
-  right: 20%;
+  right: 10%;
+  font-family: "Helvetica Neue";
+  width: 35%;
+  top: 50%;
+  line-height: 1.7;
+  letter-spacing: .8px;
+  font-size: 1em;
+  text-align: left;
+  font-weight: 90;
 }
 
 #work-text {
+  position: absolute;
   color: white;
-  right: 20%;
+  right: 10%;
+  font-family: "Helvetica Neue";
+  width: 35%;
+  top: 50%;
+  line-height: 1.7;
+  letter-spacing: .8px;
+  font-size: 1.3em;
+  text-align: left;
+  font-weight: 90;
 }
 
 #career-text {
+  position: absolute;
   color: white;
-  right: 20%;
+  right: 10%;
+  font-family: "Helvetica Neue";
+  width: 35%;
+  top: 50%;
+  line-height: 1.7;
+  letter-spacing: .8px;
+  font-size: 1em;
+  text-align: left;
+  font-weight: 90;
 }
 
 .Portfolio {
